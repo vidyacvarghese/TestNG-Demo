@@ -23,7 +23,7 @@ public class AnnotationExample1 {
 	}
 
 	@Test
-	public void annotationExample() throws IOException, InterruptedException,
+	public void getTitle() throws IOException, InterruptedException,
 			BiffException {
 		System.out.println("annotationExample");
 		String actualTitle = driver.getTitle();
