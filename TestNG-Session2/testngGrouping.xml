@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="FirefoxTest">
+		<groups>
+			<run>
+				<include name="group1" />
+				<exclude name="group2" />
+			<!--	<include name="group2" />-->
+			</run>
+		</groups>
+		<classes>
+			<class name="com.qburst.samples.tests.TestGrouping" />
+		</classes>
+	</test>
+</suite>

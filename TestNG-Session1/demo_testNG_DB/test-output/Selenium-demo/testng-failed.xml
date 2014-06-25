@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Selenium-demo]" parallel="tests">
+  <test name="Default test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qburst.tests.sample">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.qburst.tests.sample -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Selenium-demo] -->

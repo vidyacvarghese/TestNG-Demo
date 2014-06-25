@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]" parallel="none">
+  <test name="FirefoxTest(failed)" parallel="none">
+    <classes>
+      <class name="com.qburst.samples.tests.RunningSuites2">
+        <methods>
+          <include name="loadGoogle"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qburst.samples.tests.RunningSuites2 -->
+      <class name="com.qburst.samples.tests.RunningSuites1">
+        <methods>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qburst.samples.tests.RunningSuites1 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

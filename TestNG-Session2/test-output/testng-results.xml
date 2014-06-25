@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22319" started-at="2014-05-09T10:45:25Z" finished-at="2014-05-09T10:45:47Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="21269" started-at="2014-05-09T10:45:25Z" finished-at="2014-05-09T10:45:46Z">
+      <class name="com.qburst.samples.tests.Test03">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.qburst.samples.tests.Test03@13c3ba2]" name="beforeTest" is-config="true" duration-ms="6239" started-at="2014-05-09T16:15:25Z" finished-at="2014-05-09T16:15:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loadGoogle()[pri:0, instance:com.qburst.samples.tests.Test03@13c3ba2]" name="loadGoogle" duration-ms="14852" started-at="2014-05-09T16:15:31Z" finished-at="2014-05-09T16:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadGoogle -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qburst.samples.tests.Test03@13c3ba2]" name="afterTest" is-config="true" duration-ms="163" started-at="2014-05-09T16:15:46Z" finished-at="2014-05-09T16:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qburst.samples.tests.Test03 -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="22315" started-at="2014-05-09T10:45:25Z" finished-at="2014-05-09T10:45:47Z">
+      <class name="com.qburst.samples.tests.Test03">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.qburst.samples.tests.Test03@10a238e]" name="beforeTest" is-config="true" duration-ms="3137" started-at="2014-05-09T16:15:25Z" finished-at="2014-05-09T16:15:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loadGoogle()[pri:0, instance:com.qburst.samples.tests.Test03@10a238e]" name="loadGoogle" duration-ms="18263" started-at="2014-05-09T16:15:28Z" finished-at="2014-05-09T16:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadGoogle -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qburst.samples.tests.Test03@10a238e]" name="afterTest" is-config="true" duration-ms="707" started-at="2014-05-09T16:15:46Z" finished-at="2014-05-09T16:15:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qburst.samples.tests.Test03 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
